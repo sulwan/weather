@@ -1,0 +1,20 @@
+{
+    "name": "sulwan/weather",
+    "autoload": {
+        "psr-4": {
+            "Sulwan\\Weather\\": "src"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "^7.4",
+        "mockery/mockery": "^1.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Overtrue\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
